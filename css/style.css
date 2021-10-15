@@ -1,0 +1,57 @@
+/* div {
+  width: 50px;
+  height: 50px;
+  border: 10px solid green;
+  background: blueviolet;
+}
+ */
+
+.container {
+  /* border: solid 5px #0d6efd; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quoteText {
+  border: solid 10px #69d2f2;
+  border-radius: 10px;
+  width: 80%;
+  height: 60%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteText #quoteBox {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.quoteText #authorBox {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+}
+
+body {
+  background: rgb(6, 189, 193);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(6, 189, 193, 1) 22%,
+    rgba(104, 70, 159, 1) 100%
+  );
+}
+
+#newQuote {
+  color: #fff;
+  font-weight: 400;
+}
+
+.quoteText {
+  background: #f4edea;
+}
